@@ -7,8 +7,8 @@ pipeline {
     }
     
     environment {
-        DOCKER_HUB_USERNAME = 'moeedasif38'
-        IMAGE_NAME = "${DOCKER_HUB_USERNAME}/calculator-app"
+        DOCKER_HUB_USERNAME = 'macmillian0007'
+        IMAGE_NAME = "${DOCKER_HUB_USERNAME}/jenkins-automation-app"
         DOCKER_CREDENTIALS = 'dockerhub-credentials'
     }
     
